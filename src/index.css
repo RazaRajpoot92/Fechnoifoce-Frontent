@@ -1,0 +1,57 @@
+/* Import Inter for body and Oswald for headings */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap'); */
+/* Import Inter and Rajdhani fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* Tailwind base imports */
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif; /* for general text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif; /* for headings */
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* shape divider css */
+.custom-shape-divider-bottom-1773611099 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1773611099 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1773611099 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+/* custom style */
+
