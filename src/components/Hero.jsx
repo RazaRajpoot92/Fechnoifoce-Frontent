@@ -1,5 +1,5 @@
 import BackDesign from "./BackDesign";
-import carImg from "../assets/car-white.png";
+import carImg from "../assets/car-robotic.png";
 
 const Hero = () => {
   return (
@@ -12,18 +12,18 @@ const Hero = () => {
             Techno I <span className="text-yellow-500">Force</span>
           </h1>
           <p className=" px-2 sm:p-0 text-sm sm:text-[16px] text-gray-300 leading-7 tracking-wider ">
-            Delivering reliable electromechanical solutions that keep industries
+            Delivering reliable <span className="text-yellow-400">electromechanical</span> and <span className="text-yellow-400">packaging</span>  solutions that keep industries
             moving. Our expert engineers ensure efficient installation,
             maintenance, and optimization of machinery, helping your operations
             perform better, faster, and smarter every single day.
           </p>
-          <button className=" mt-5  text-lg bg-yellow-500 w-40 sm:w-50 lg:w-70 hover:bg-yellow-300 py-2 rounded-xs font-semibold active:scale-105 transition-all duration-300">
+          <button className=" mt-5  text-lg bg-yellow-500 w-40 sm:w-50 lg:w-70 hover:bg-yellow-400 py-2 rounded-xs font-semibold active:scale-105 transition-all duration-300">
             Get Free Quote
           </button>
         </div>
 
         <img
-          className=" w-120 md:w-110 lg:w-140 lg:h-160 "
+          className=" w-120 md:w-110 lg:w-130 lg:h-110 "
           src={carImg}
           alt=""
         />
