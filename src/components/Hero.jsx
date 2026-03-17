@@ -1,10 +1,12 @@
 import BackDesign from "./BackDesign";
 import carImg from "../assets/car-robotic.png";
+import BottomDivider from "../components/BottomDivider"
 
 const Hero = () => {
   return (
-    <section class="flex justify-center relative overflow-hidden h-screen md:h-[80vh] lg:h-screen 2xl:h-[55vh] bg-gray-900  text-white">
+    <section class=" pt-14 flex justify-center relative overflow-hidden min-h-screen md:h-[80vh] lg:h-screen 2xl:h-[55vh] bg-gray-900  text-white">
       <BackDesign />
+  
 
       <div class=" max-w-350 relative justify-center flex flex-col md:flex-row w-full md:justify-around items-center">
         <div className="items-center md:pl-3 md:items-start md:w-1/2 pl-2 flex flex-col gap-5">

@@ -8,7 +8,7 @@ const App = () => {
       <Navbar />
       <HomePage />
 
-      <div className='h-screen'> 
+      <div className=' h-screen bg-gray-100'> 
     
       </div>
     </div>

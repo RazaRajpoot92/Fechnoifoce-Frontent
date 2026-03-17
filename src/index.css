@@ -41,10 +41,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-shape-divider-bottom-1773611099 .shape-fill {
-    fill: #FFFFFF;
+    fill: #e5e7eb;
 }
 
+/* top shape divider */
 
+.custom-shape-divider-top-1773714535 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1773714535 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 53px;
+}
+
+.custom-shape-divider-top-1773714535 .shape-fill {
+    fill: #101828;
+}
 
 
 

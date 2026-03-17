@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='w-full flex my-2 items-center justify-center h-12 fixed z-30 text-white'>
-        <div className=' w-full md:w-[70%] md:rounded-xl border-blue-200 border  flex justify-between items-center px-6 h-full  bg-linear-to-r from-gray-950/40 via-gray-900/40 to-gray-800/40 backdrop-blur-[2px] '>
+        <div className=' w-full md:w-[70%] md:rounded-xl border-blue-200 border  flex justify-between items-center px-6 h-full  bg-linear-to-r from-gray-800/40 via-gray-700/40 to-gray-600/40 backdrop-blur-[2px] '>
             <h1 className='text-blue-500 sm:text-xl font-semibold'>Techno I Force</h1>
             <div className='flex items-center *:hover:text-blue-400 transition-all duration-300 gap-4'>
                 <a href="">Home</a>
