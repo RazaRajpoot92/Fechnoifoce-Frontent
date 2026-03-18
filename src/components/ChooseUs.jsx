@@ -1,18 +1,22 @@
 import React from 'react'
 import { BookUser, Cpu, Heart, Rocket } from 'lucide-react'
-import carImg from "../assets/car-robotic.png"
+import carImg from "../assets/eventImg1.jpeg"
 
 const ChooseUs = () => {
   return (
-    <div className='bg-gray-100 relative overflow-hidden min-h-[70vh] flex flex-col md:flex-row items-center md:items-stretch justify-between'>
+    <div className='bg-gray-50 pb-15 relative overflow-hidden min-h-[70vh] flex flex-col md:flex-row items-center md:items-stretch justify-between'>
       
       {/* Image Section */}
-      <div className='w-full md:w-1/2 flex justify-center md:justify-end p-4 md:p-0'>
-        <img className='w-full max-w-md md:max-w-full object-contain' src={carImg} alt="Car" />
+      <div className='w-full relative md:w-1/2 flex justify-center items-center  p-4 md:p-0'>
+        
+        <div className=' rounded-2xl z-40  mt-2 border-10 border-b-violet-300 border-r-violet-300 border-l-yellow-400 border-t-yellow-400'>
+    
+          <img className=' w-80 h-90 rounded-md z-40' src={carImg} alt="Car" />
+        </div>
       </div>
 
       {/* Content Section */}
-      <div className='relative w-full md:w-1/2 bg-gray-200 md:rounded-l-[100px] flex flex-col items-center md:items-start justify-center py-8 px-4 md:px-12 overflow-hidden'>
+      <div className=' mt-2 relative w-full md:w-1/2 bg-gray-200 md:rounded-l-[100px] flex flex-col items-center md:items-start justify-center py-8 px-4 md:px-12 overflow-hidden'>
         
         {/* Background Circle */}
         <div className='absolute w-72 h-72 md:w-80 md:h-80 rounded-full -bottom-32 -right-32 bg-linear-to-br from-yellow-200 via-yellow-300 to-orange-300'></div>
