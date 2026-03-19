@@ -1,51 +1,11 @@
-import React from 'react'
-
-const ServiceCard = () => {
-  return (
-    <div className='flex gap-2 px-10 flex-wrap justify-center bg-gray-50'>
+const ServiceCard = ({item}) => {
     
-        <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-40 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className=" flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         <div className="flex items-center  flex-col justify-center overflow-hidden bg-violet-100 text-center border border-gray-100 relative h-60 w-60  rounded-4xl">
-            <div className='absolute size-70 bg-yellow-200 -bottom-30 rounded-full -left-5 '></div>
-                <div class=" bg-cover bg-center opacity-85 bg-[url('https://crmining.com/wp-content/uploads/2022/02/Universal-Lifting-Solution-4.jpg')] blob h-45 w-55 bg-linear-to-br from-yellow-200 via-yellow-200 to-orange-300 "></div>
-            <h2 className='text-gray-700  z-50 font-semibold mt-3'>Vehicle Lifting Solutions</h2>
-        </div>
-         
+  return (
 
+    <div className=" px-2 flex items-center  flex-col justify-center overflow-hidden shadow-md hover:bg-yellow-200 hover:scale-105 transition-all duration-300 bg-yellow-100 text-center border border-gray-100 relative h-70 w-75 sm:w-60  rounded-4xl">
+        <div className='absolute size-70 bg-yellow-50 -bottom-40 rounded-full -left-5 '></div>
+        <img src={item.imgUrl} class=" bg-cover bg-center opacity-85 blob h-40 w-50 " />
+        <h2 className='text-gray-700  z-50 font-semibold mt-3 text-lg leading-5'>{item.title}</h2>
     </div>
   )
 }

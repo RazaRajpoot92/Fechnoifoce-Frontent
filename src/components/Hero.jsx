@@ -2,39 +2,42 @@ import BackDesign from "./BackDesign";
 import carImg from "../assets/car-robotic.png";
 
 const Hero = () => {
-  
   return (
-    <>
-    <section class=" pt-14 flex justify-center relative overflow-hidden min-h-screen md:h-[80vh] lg:h-screen 2xl:h-[55vh] bg-gray-900  text-white">
+    <section className="pt-14 flex justify-center relative overflow-hidden min-h-screen md:h-[80vh] lg:h-screen 2xl:h-[55vh] bg-gray-900 text-white">
+      
+      {/* Background Design */}
       <BackDesign />
-  
 
-      <div class=" max-w-350 relative justify-center flex flex-col md:flex-row w-full md:justify-around items-center">
-        <div className="items-center md:pl-3 md:items-start md:w-1/2 pl-2 flex flex-col gap-5">
-          <h1 class="  mb-2 text-2xl md:text-3xl lg:text-5xl font-bold">
+      <div className="flex flex-col md:flex-row items-center justify-center md:justify-around w-full max-w-6xl relative px-4 md:px-6 gap-8">
+        
+        {/* Text Content */}
+        <div className="flex flex-col gap-5 md:gap-6 md:w-1/2 items-center md:items-start text-center md:text-left">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
             Techno I <span className="text-yellow-500">Force</span>
           </h1>
-          <p className=" px-2 sm:p-0 text-sm sm:text-[16px] text-gray-300 leading-7 tracking-wider ">
-            Delivering reliable <span className="text-yellow-500">electromechanical</span> and <span className="text-yellow-500">packaging</span>  solutions that keep industries
+
+          <p className="text-sm sm:text-base md:text-lg text-gray-300 leading-7 tracking-wide px-2 sm:px-0">
+            Delivering reliable <span className="text-yellow-500">electromechanical</span> and <span className="text-yellow-500">packaging</span> solutions that keep industries
             moving. Our expert engineers ensure efficient installation,
             maintenance, and optimization of machinery, helping your operations
             perform better, faster, and smarter every single day.
           </p>
-          <button className=" mt-5  text-lg bg-yellow-500 hover:cursor-pointer w-40 sm:w-50 lg:w-70  hover:bg-yellow-400 py-2 rounded-xs font-semibold active:scale-105 transition-all duration-300">
+
+          <button className="mt-5 text-lg bg-yellow-500 hover:bg-yellow-400 cursor-pointer w-36 sm:w-44 lg:w-56 py-2 rounded-md font-semibold active:scale-105 transition-all duration-300">
             Get Free Quote
           </button>
         </div>
 
-        <img
-          className=" car w-120 md:w-110 lg:w-130 lg:h-110 "
-          src={carImg}
-          alt=""
-        />
+        {/* Image */}
+        <div className="md:w-1/2 flex justify-center md:justify-end">
+          <img
+            src={carImg}
+            alt="Robotic Car"
+            className="w-72 sm:w-80 md:w-96 lg:w-[520px] lg:h-auto"
+          />
+        </div>
       </div>
-    
     </section>
-    
-    </>
   );
 };
 

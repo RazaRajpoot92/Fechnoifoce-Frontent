@@ -9,9 +9,9 @@ const ChooseUs = () => {
       {/* Image Section */}
       <div className='w-full relative md:w-1/2 flex justify-center items-center  p-4 md:p-0'>
         
-        <div className=' rounded-2xl z-40  mt-2 border-10 border-b-violet-300 border-r-violet-300 border-l-yellow-400 border-t-yellow-400'>
+        <div className=' rounded-2xl z-40  mt-2 border-10 border-b-yellow-200 border-r-yellow-200 border-l-yellow-400 border-t-yellow-400'>
     
-          <img className=' w-80 h-90 rounded-md z-40' src={carImg} alt="Car" />
+          <img className=' w-90 md:w-80 h-90 rounded-md z-40' src={carImg} alt="Car" />
         </div>
       </div>
 
