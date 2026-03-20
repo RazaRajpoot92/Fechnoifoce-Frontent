@@ -4,6 +4,7 @@ import ChooseUs from '../components/ChooseUs'
 import ServiceCard from '../components/ServiceCard'
 import ServicesContainer from '../components/ServicesContainer'
 import WorkWithUs from '../components/WorkWithUs'
+import ClientSection from '../components/ClientSection'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <ChooseUs />
       <ServicesContainer />
       <WorkWithUs />
+      <ClientSection />
     </div>
   )
 }
