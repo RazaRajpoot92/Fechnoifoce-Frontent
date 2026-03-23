@@ -5,6 +5,8 @@ import ServiceCard from '../components/ServiceCard'
 import ServicesContainer from '../components/ServicesContainer'
 import WorkWithUs from '../components/WorkWithUs'
 import ClientSection from '../components/ClientSection'
+import TeamSection from '../components/TeamSection'
+import CTASection from '../components/CTASection'
 
 const HomePage = () => {
   return (
@@ -14,6 +16,8 @@ const HomePage = () => {
       <ServicesContainer />
       <WorkWithUs />
       <ClientSection />
+      <TeamSection />
+      <CTASection />
     </div>
   )
 }

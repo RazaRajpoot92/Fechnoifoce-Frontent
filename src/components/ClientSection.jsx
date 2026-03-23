@@ -2,14 +2,15 @@ import logoData from "../data/logoImgData"
 
 const ClientSection = () => {
   return (
-    <div className='flex flex-col lg:flex-row bg-gray-50 items-center'>
+    <div className=" flex justify-center w-full bg-gray-100">
+    <div className='w-full max-w-6xl flex flex-col lg:flex-row bg-gray-100 items-center'>
 
       {/* LEFT SECTION */}
       <div className='flex flex-col items-center justify-center 
       w-full lg:w-[40%] px-4 sm:px-6 
-      rounded-none lg:rounded-r-[50px] 
+      rounded-none lg:rounded-r-[40px] lg:rounded-l-[40px] 
       bg-gradient-to-r from-yellow-300 to-yellow-200 
-      min-h-auto lg:min-h-[500px] py-10'>
+      min-h-auto lg:min-h-[400px] py-10'>
 
         <div className='flex flex-col items-center justify-center gap-5 max-w-md'>
           <h1 className='font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-700 text-center'>
@@ -55,6 +56,7 @@ const ClientSection = () => {
         </div>
       </div>
 
+    </div>
     </div>
   )
 }
