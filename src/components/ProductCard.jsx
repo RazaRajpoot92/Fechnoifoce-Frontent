@@ -16,7 +16,7 @@ const ProductCard = ({item}) => {
 
       {/* Content */}
       <div className="bg-gray-50 border-t border-gray-200 flex flex-col items-center justify-center py-4 px-3">
-        <h2 className="text-lg font-semibold text-gray-800 mb-1">
+        <h2 className="text-md font-semibold text-gray-800 mb-1">
           {item.title}
         </h2>
         <p className="text-sm text-gray-500 text-center">

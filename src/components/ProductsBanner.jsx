@@ -6,7 +6,7 @@ const ProductsBanner = () => {
   return (
     <div className="flex w-full justify-center bg-gray-100 px-2 py-4">
       <div className="flex flex-col lg:flex-row items-center w-[85%] max-w-6xl rounded-2xl 
-      bg-gradient-to-r from-yellow-300/80  to-yellow-200 text-gray-700 
+      bg-gradient-to-r from-yellow-200  to-yellow-300/80 text-gray-700 
       px-6 sm:px-10 py-10 gap-6">
 
         {/* Text Section */}
@@ -22,8 +22,8 @@ const ProductsBanner = () => {
         {/* Image Section */}
         <div className="flex-1 flex justify-center">
           <img 
-            className="w-60 sm:w-80 lg:w-96 object-contain" 
-            src={car} 
+            className="w-60 rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
+            src={teamImg} 
             alt="Automotive Solutions" 
           />  
         </div>
@@ -36,4 +36,4 @@ const ProductsBanner = () => {
 export default ProductsBanner
 
 
-// rounded-2xl opacity-95 border-4 border-orange-400
+// 
