@@ -9,6 +9,7 @@ import pr5 from '../assets/products/product5.png'
 import pr6 from '../assets/products/product6.png'
 import pr7 from '../assets/products/product7.png'
 import pr8 from '../assets/products/product8.png'
+import SideBar from '../components/SideBar'
 
 const productData = [
     {
@@ -74,90 +75,92 @@ const productData = [
 const ProductsPage = () => {
     const [showingProducts, setShowingProducts] = useState(8)
     const [categories, setCategories] = useState([])
-    const handleNext = ()=>{
-        if(showingProducts < productData.length){
+
+    const handleNext = () => {
+        if (showingProducts < productData.length) {
             setShowingProducts(prev => prev + 4)
         }
     }
-    const handlePrev = ()=>{
-        if(showingProducts > 4){
+
+    const handlePrev = () => {
+        if (showingProducts > 4) {
             setShowingProducts(prev => prev - 4)
         }
     }
 
-    const handleChange = (e)=>{
-        const {value, checked} = e.target
-        console.log(value, checked)
-        if(checked){
-            setCategories([...categories, value])
-        }else{
-            setCategories(categories.filter(item => item != value))
-        }
+    const handleChange = (e) => {
+        const { value, checked } = e.target
 
-        console.log(categories)
+        if (checked) {
+            setCategories(prev => [...prev, value])
+        } else {
+            setCategories(prev => prev.filter(item => item !== value))
+        }
     }
 
-   const filteredData =  productData.filter(item => categories.includes(item.category))
+    const filteredProducts =
+        categories.length > 0
+            ? productData.filter(item => categories.includes(item.category))
+            : productData
 
-    console.log(filteredData)
-
-  return (
-    <div className='pt-18 px-4 bg-gray-100'>
-        <ProductsBanner />
-        <div className='flex'>
-            <div className='w-[30%] pl-4 rounded-4xl pt-4  border border-gray-300'>
-                <h2 className=' text-lg text-gray-600'>Filter Products</h2>
-                <h2 className='font-semibold text-md text-gray-700 mt-3'>Category</h2>
-                <div className='flex flex-col gap-2 mt-4 pl-2'>
-                    <div className='flex gap-2 items-center'>
-                        <input
-                        value={"Vehicle Lifting Solutions"}
-                        onChange={handleChange}
-                        className='size-4' type="checkbox" />
-                        <p className='text-sm text-gray-600'>Vehicle Lifting Solutions</p>
-                    </div>
-                    <div className='flex gap-2 items-center'>
-                        <input
-                        value={"Tire and Wheel Services"}
-                        onChange={handleChange}
-                        className='size-4' type="checkbox" />
-                        <p className='text-sm text-gray-600'>Tire and Wheel Services</p>
-                    </div>
-                    <div className='flex gap-2 items-center'>
-                        <input
-                        value={"Car Wash & Cleaning Systems"}
-                        onChange={handleChange}
-                        className='size-4 ' type="checkbox" />
-                        <p className='text-sm text-gray-600'>Car Wash & Cleaning Systems</p>
-                    </div>
-                </div>
-            </div>
-            {/* product container */}
-            <div className='w-full'>
-                <h1 className='pl-6 py-2 pb-4 font-semibold text-3xl text-gray-700'>Our <span className='text-yellow-400'>Exclusive</span> Products</h1>
-                <div className=' w-full px-6 grid grid-cols-4 gap-2'>
+    return (
+        <div className='flex bg-gray-50 justify-center'>
+            <div className="pt-15 px-4 lg:px-10 bg-gray-50 min-h-screen">
                 
-                    {
-                    
+                <ProductsBanner />
 
-                        productData.filter(item => categories.length >0? categories.includes(item.category): item).slice(0,showingProducts).map((item)=>(
-                            <ProductCard key={item.id} item = {item}/>
-                        ))
-                    }
-                </div>
+                <div className="flex flex-col lg:flex-row gap-6 mt-6">
 
-                <div className='flex justify-center pt-6'>
-                    <div className='flex gap-4 *:hover:cursor-pointer *:hover:bg-gray-400'>
-                        <p onClick={handlePrev}  className='border py-1 px-5'>Prev</p>
-                        <p onClick={handleNext} className='border py-1 px-5'>Next</p>
+                    <SideBar handleChange = {handleChange} />
+
+                    {/* Products Section */}
+                    <div className='w-full flex justify-center'>
+                        <div className="max-w-230 ">
+
+                            <h1 className="mb-6 text-2xl md:text-3xl font-bold text-gray-800">
+                                Our <span className="text-yellow-400">Exclusive</span> Products
+                            </h1>
+
+                            {/* Grid */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
+                                {
+                                    filteredProducts
+                                        .slice(0, showingProducts)
+                                        .map((item) => (
+                                            <ProductCard key={item.id} item={item} />
+                                        ))
+                                }
+                            </div>
+
+                            {/* Pagination */}
+                            <div className="flex justify-center mt-8">
+                                <div className="flex gap-4">
+
+                                    <button
+                                        onClick={handlePrev}
+                                        className="px-5 py-2 border border-gray-300 rounded-lg 
+                                        text-gray-700 hover:bg-gray-100 transition">
+                                        Prev
+                                    </button>
+
+                                    <button
+                                        onClick={handleNext}
+                                        className="px-5 py-2 border border-gray-300 rounded-lg 
+                                        text-gray-700 hover:bg-gray-100 transition">
+                                        Next
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+
+                <div className="h-20"></div>
             </div>
         </div>
-        
-        <div className='h-[60vh]'></div>
-    </div>
-  )
+    )
 }
 
 export default ProductsPage
