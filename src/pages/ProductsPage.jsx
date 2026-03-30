@@ -1,90 +1,29 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import ProductsBanner from '../components/ProductsBanner'
 import ProductCard from '../components/ProductCard'
-import pr1 from "../assets/product1.png"
-import pr2 from "../assets/product2.png"
-import pr3 from '../assets/products/product3.png'
-import pr4 from "../assets/product4.png"
-import pr5 from '../assets/products/product5.png'
-import pr6 from '../assets/products/product6.png'
-import pr7 from '../assets/products/product7.png'
-import pr8 from '../assets/products/product8.png'
 import SideBar from '../components/SideBar'
+import productData from '../data/productsData'
 
-const productData = [
-    {
-    id:1,
-    title: "Portable Car Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr1, 
-    category:"Vehicle Lifting Solutions"
-},
-    {
-    id:2,
-    title: "Scissor Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr2, 
-    category:"Vehicle Lifting Solutions"
-},
-{
-    id:3,
-    title: "Alignment Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr3, 
-    category:"Vehicle Lifting Solutions"
-},
 
-{
-    id:4,
-    title: "Mobile Column Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr4, 
-    category:"Vehicle Lifting Solutions"
-},
-{
-    id:5,
-    title: "Wheel Balancer",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr5, 
-    category:"Tire and Wheel Services"
-},
-{
-    id:6,
-    title: "Tire Inflators",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr6, 
-    category:"Tire and Wheel Services"
-},
-{
-    id:7,
-    title: "Rim Straightening Machines",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr7, 
-    category:"Tire and Wheel Services"
-},
-{
-    id:8,
-    title: "Nitrogen Tire Inflators",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr8, 
-    category:"Tire and Wheel Services"
-},
-
-]
 
 const ProductsPage = () => {
     const [showingProducts, setShowingProducts] = useState(8)
     const [categories, setCategories] = useState([])
 
+    const filteredProducts =
+            categories.length > 0
+                ? productData.filter(item => categories.includes(item.category))
+                : productData
+
     const handleNext = () => {
-        if (showingProducts < productData.length) {
-            setShowingProducts(prev => prev + 4)
+        if (showingProducts < filteredProducts.length) {
+            setShowingProducts(prev => prev + 8)
         }
     }
 
     const handlePrev = () => {
-        if (showingProducts > 4) {
-            setShowingProducts(prev => prev - 4)
+        if (showingProducts > 8) {
+            setShowingProducts(prev => prev - 8)
         }
     }
 
@@ -98,10 +37,7 @@ const ProductsPage = () => {
         }
     }
 
-    const filteredProducts =
-        categories.length > 0
-            ? productData.filter(item => categories.includes(item.category))
-            : productData
+    
 
     return (
         <div className='flex bg-gray-50 justify-center'>
@@ -125,7 +61,7 @@ const ProductsPage = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
                                 {
                                     filteredProducts
-                                        .slice(0, showingProducts)
+                                        .slice(showingProducts - 8, showingProducts)
                                         .map((item) => (
                                             <ProductCard key={item.id} item={item} />
                                         ))

@@ -1,5 +1,4 @@
-import React from 'react'
-import pr2 from "../assets/product2.png"
+
 
 const ProductCard = ({item}) => {
   return (
@@ -15,7 +14,7 @@ const ProductCard = ({item}) => {
       </div>
 
       {/* Content */}
-      <div className="bg-gray-50 border-t border-gray-200 flex flex-col items-center justify-center py-4 px-3">
+      <div className="bg-white border-t border-gray-200 flex flex-col items-center justify-center py-4 px-3">
         <h2 className="text-md font-semibold text-gray-800 mb-1">
           {item.title}
         </h2>

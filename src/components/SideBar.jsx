@@ -5,9 +5,9 @@ const SideBar = ({handleChange}) => {
   return (
     <>
     {/* Sidebar */}
-        <div className="w-full lg:w-[300px] bg-white border border-gray-200 rounded-xl p-5 shadow-sm h-fit">
+        <div className="w-full lg:w-[320px] bg-white border border-gray-200 rounded-xl p-4 shadow-sm h-fit">
 
-            <h2 className="text-lg font-semibold text-gray-700 mb-4">
+            <h2 className="text-lg font-semibold text-yellow-400 mb-4">
                 Filter Products
             </h2>
 
@@ -20,7 +20,14 @@ const SideBar = ({handleChange}) => {
                 {[
                     "Vehicle Lifting Solutions",
                     "Tire and Wheel Services",
-                    "Car Wash & Cleaning Systems"
+                    "Car Wash & Cleaning Systems",
+                    "Hydraulic & Pneumatic Tools",
+                    "Body Repair & Paint Solutions",
+                    "Air & Fluid Management System",
+                    "Diagnostic & Testing Equipment",
+                    "Safety and Storage (Warehousing) Solutions",
+                    "General Workshop Tools",
+                    "Servicing Equipment & Maintenance"
                 ].map((cat) => (
                     <label key={cat} className="flex items-center gap-2 cursor-pointer group">
                         
@@ -35,8 +42,8 @@ const SideBar = ({handleChange}) => {
                         {/* Custom UI */}
                         <div className="w-4 h-4 border-2 border-gray-300 rounded 
                             flex items-center justify-center
-                            peer-checked:bg-black 
-                            peer-checked:border-black
+                            peer-checked:bg-yellow-300 
+                            peer-checked:border-yellow-300
                             transition">
                                 <Check color='white' />
                             
