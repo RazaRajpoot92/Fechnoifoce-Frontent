@@ -39,7 +39,7 @@ const OurProcess = () => {
         
 
         {ProcessData.map((item, idx)=>(
-            <ProcessCard item = {item} id = {idx}  />
+            <ProcessCard item = {item} id={idx} key={idx}  />
         ))}
 
     

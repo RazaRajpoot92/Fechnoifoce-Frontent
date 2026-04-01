@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Inter', sans-serif; /* for general text */
+  scroll-behavior: smooth;
  
 }
 

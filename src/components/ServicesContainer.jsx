@@ -13,7 +13,7 @@ const ServicesContainer = () => {
         
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {serviceData.map((item, idx)=>(
-                    <ServiceCard item = {item} />
+                    <ServiceCard key={item.title} item = {item} />
                 ))}
             </div>
         
