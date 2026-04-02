@@ -40,291 +40,287 @@ import pr38 from '../assets/products/product38.png'
 import pr39 from '../assets/products/product39.png'
 import pr40 from '../assets/products/product40.png'
 
-
 const productData = [
-    {
-    id:40,
-    title: "Oil Change Systems",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr40, 
-    category:"Servicing Equipment & Maintenance"
-    },
-    {
-    id:39,
-    title: "Fuel Injector Cleaners",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr39, 
-    category:"Servicing Equipment & Maintenance"
-    },
-     {
-    id:38,
-    title: "Brake Fluid Exchangers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr38, 
-    category:"Servicing Equipment & Maintenance"
-    },
-    {
-    id:37,
-    title: "Coolant Flush Machines",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr37, 
-    category:"Servicing Equipment & Maintenance"
-    },
-     {
-    id:36,
-    title: "Socket and Wrench Sets",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr36, 
-    category:"General Workshop Tools"
-    },
-     {
-    id:35,
-    title: "Creepers (Mechanic's Dollies)",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr35, 
-    category:"General Workshop Tools"
-    },
-     {
-    id:34,
-    title: "Tool Cabinets",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr34, 
-    category:"General Workshop Tools"
-    },
-    {
-    id:33,
-    title: "Wheel Alignment Racks",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr33, 
-    category:"General Workshop Tools"
-    },
-    {
-    id:32,
-    title: "Material Handling Carts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr32, 
-    category:"Safety and Storage (Warehousing) Solutions"
-    },
-    {
-    id:31,
-    title: "Conveyor Systems",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr31, 
-    category:"Safety and Storage (Warehousing) Solutions"
-    },
-     {
-    id:30,
-    title: "Industrial Shelving Units",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr30, 
-    category:"Safety and Storage (Warehousing) Solutions"
-    },
-    {
-    id:29,
-    title: "Pallet Racks",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr29, 
-    category:"Safety and Storage (Warehousing) Solutions"
-    },
-       {
-    id:28,
-    title: "Fuel Pressure Testers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr28, 
-    category:"Diagnostic & Testing Equipment"
-    },
-     {
-    id:27,
-    title: "Compression Testers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr27, 
-    category:"Diagnostic & Testing Equipment"
-    },
-    {
-    id:26,
-    title: "Smoke Leak Detectors",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr26, 
-    category:"Diagnostic & Testing Equipment"
-    },
-    {
-    id:25,
-    title: "Battery Testers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr25, 
-    category:"Diagnostic & Testing Equipment"
-    },
-    {
-    id:24,
-    title: "Fluid Extractors",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr24, 
-    category:"Air & Fluid Management System"
-    },
-    {
-    id:23,
-    title: "Oil Dispensing Systems",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr23, 
-    category:"Air & Fluid Management System"
-    },
-      {
-    id:22,
-    title: "Lubrication Pumps",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr22, 
-    category:"Air & Fluid Management System"
-    },
-     {
-    id:21,
-    title: "Air Dryers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr21, 
-    category:"Air & Fluid Management System"
-    },
-     {
-    id:20,
-    title: "Sanding Machines",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr20, 
-    category:"Body Repair & Paint Solutions"
-    },
-     {
-    id:19,
-    title: "Dent Pullers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr19, 
-    category:"Body Repair & Paint Solutions"
-    },
-     {
-    id:18,
-    title: "Infrared Curing Lamps",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr18, 
-    category:"Body Repair & Paint Solutions"
-    },
-     {
-    id:17,
-    title: "Spray Guns",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr17, 
-    category:"Body Repair & Paint Solutions"
-    },
-     {
-    id:16,
-    title: "Pneumatic Impact Wrenches",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr16, 
-    category:"Hydraulic & Pneumatic Tools"
-},
-     {
-    id:15,
-    title: "Pneumatic Impact Wrenches",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr15, 
-    category:"Hydraulic & Pneumatic Tools"
-},
-    {
-    id:14,
-    title: "Hydraulic Jacks",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr14, 
-    category:"Hydraulic & Pneumatic Tools"
-},
-    {
-    id:13,
-    title: "Hydraulic Presses",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr13, 
-    category:"Hydraulic & Pneumatic Tools"
-},
-    {
-    id:12,
-    title: "Foam Sprayers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr12, 
-    category:"Car Wash & Cleaning Systems"
-},
-        {
-    id:11,
-    title: "Vacuum Systems",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr11, 
-    category:"Car Wash & Cleaning Systems"
-},
-    {
-    id:10,
-    title: "Pressure Washers",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr10, 
-    category:"Car Wash & Cleaning Systems"
-},
-      {
-    id:9,
-    title: "Automatic Car Wash",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr9, 
-    category:"Car Wash & Cleaning Systems"
-},
-    {
-    id:1,
-    title: "Portable Car Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr1, 
-    category:"Vehicle Lifting Solutions"
-},
-    {
-    id:2,
-    title: "Scissor Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr2, 
-    category:"Vehicle Lifting Solutions"
+{
+id:40,
+title: "Oil Change Systems",
+desc: "Reliable and efficient oil change systems for modern workshops.",
+imgUrl: pr40, 
+category:"Servicing Equipment & Maintenance"
 },
 {
-    id:3,
-    title: "Alignment Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr3, 
-    category:"Vehicle Lifting Solutions"
-},
-
-{
-    id:4,
-    title: "Mobile Column Lifts",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr4, 
-    category:"Vehicle Lifting Solutions"
+id:39,
+title: "Fuel Injector Cleaners",
+desc: "Advanced and precise injector cleaning solutions for workshops.",
+imgUrl: pr39, 
+category:"Servicing Equipment & Maintenance"
 },
 {
-    id:5,
-    title: "Wheel Balancer",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr5, 
-    category:"Tire and Wheel Services"
+id:38,
+title: "Brake Fluid Exchangers",
+desc: "High-performance fluid exchange systems for workshop use.",
+imgUrl: pr38, 
+category:"Servicing Equipment & Maintenance"
 },
 {
-    id:6,
-    title: "Tire Inflators",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr6, 
-    category:"Tire and Wheel Services"
+id:37,
+title: "Coolant Flush Machines",
+desc: "Durable and effective coolant flushing systems for workshops.",
+imgUrl: pr37, 
+category:"Servicing Equipment & Maintenance"
 },
 {
-    id:7,
-    title: "Rim Straightening Machines",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr7, 
-    category:"Tire and Wheel Services"
+id:36,
+title: "Socket and Wrench Sets",
+desc: "Reliable and efficient hand tool sets for modern workshops.",
+imgUrl: pr36, 
+category:"General Workshop Tools"
 },
 {
-    id:8,
-    title: "Nitrogen Tire Inflators",
-    desc: "Reliable and efficient lifting solutions for modern workshops.",
-    imgUrl: pr8, 
-    category:"Tire and Wheel Services"
+id:35,
+title: "Creepers (Mechanic's Dollies)",
+desc: "Smooth and durable mobility solutions for workshop tasks.",
+imgUrl: pr35, 
+category:"General Workshop Tools"
 },
-
+{
+id:34,
+title: "Tool Cabinets",
+desc: "Secure and organized storage solutions for modern workshops.",
+imgUrl: pr34, 
+category:"General Workshop Tools"
+},
+{
+id:33,
+title: "Wheel Alignment Racks",
+desc: "Accurate and stable alignment support systems for workshops.",
+imgUrl: pr33, 
+category:"General Workshop Tools"
+},
+{
+id:32,
+title: "Material Handling Carts",
+desc: "Reliable and efficient transport solutions for warehouse use.",
+imgUrl: pr32, 
+category:"Safety and Storage (Warehousing) Solutions"
+},
+{
+id:31,
+title: "Conveyor Systems",
+desc: "Automated and seamless material flow systems for industries.",
+imgUrl: pr31, 
+category:"Safety and Storage (Warehousing) Solutions"
+},
+{
+id:30,
+title: "Industrial Shelving Units",
+desc: "Heavy-duty shelving solutions for warehouse storage needs.",
+imgUrl: pr30, 
+category:"Safety and Storage (Warehousing) Solutions"
+},
+{
+id:29,
+title: "Pallet Racks",
+desc: "Strong and space-saving pallet storage systems for warehouses.",
+imgUrl: pr29, 
+category:"Safety and Storage (Warehousing) Solutions"
+},
+{
+id:28,
+title: "Fuel Pressure Testers",
+desc: "Accurate and reliable fuel testing tools for workshops.",
+imgUrl: pr28, 
+category:"Diagnostic & Testing Equipment"
+},
+{
+id:27,
+title: "Compression Testers",
+desc: "Precise engine testing tools for modern workshop diagnostics.",
+imgUrl: pr27, 
+category:"Diagnostic & Testing Equipment"
+},
+{
+id:26,
+title: "Smoke Leak Detectors",
+desc: "Advanced leak detection tools for efficient diagnostics.",
+imgUrl: pr26, 
+category:"Diagnostic & Testing Equipment"
+},
+{
+id:25,
+title: "Battery Testers",
+desc: "Reliable and efficient battery testing tools for workshops.",
+imgUrl: pr25, 
+category:"Diagnostic & Testing Equipment"
+},
+{
+id:24,
+title: "Fluid Extractors",
+desc: "High-performance fluid extraction systems for workshops.",
+imgUrl: pr24, 
+category:"Air & Fluid Management System"
+},
+{
+id:23,
+title: "Oil Dispensing Systems",
+desc: "Reliable and efficient oil dispensing systems for workshops.",
+imgUrl: pr23, 
+category:"Air & Fluid Management System"
+},
+{
+id:22,
+title: "Lubrication Pumps",
+desc: "Smooth and consistent lubrication systems for workshop use.",
+imgUrl: pr22, 
+category:"Air & Fluid Management System"
+},
+{
+id:21,
+title: "Air Dryers",
+desc: "Efficient air drying systems for clean workshop operations.",
+imgUrl: pr21, 
+category:"Air & Fluid Management System"
+},
+{
+id:20,
+title: "Sanding Machines",
+desc: "Powerful and precise sanding solutions for workshops.",
+imgUrl: pr20, 
+category:"Body Repair & Paint Solutions"
+},
+{
+id:19,
+title: "Dent Pullers",
+desc: "Effective and easy dent repair tools for workshops.",
+imgUrl: pr19, 
+category:"Body Repair & Paint Solutions"
+},
+{
+id:18,
+title: "Infrared Curing Lamps",
+desc: "Fast and uniform paint curing systems for workshops.",
+imgUrl: pr18, 
+category:"Body Repair & Paint Solutions"
+},
+{
+id:17,
+title: "Spray Guns",
+desc: "Smooth and accurate paint spraying tools for workshops.",
+imgUrl: pr17, 
+category:"Body Repair & Paint Solutions"
+},
+{
+id:16,
+title: "Pneumatic Impact Wrenches",
+desc: "High-torque pneumatic fastening tools for workshops.",
+imgUrl: pr16, 
+category:"Hydraulic & Pneumatic Tools"
+},
+{
+id:15,
+title: "Pneumatic Impact Wrenches",
+desc: "Reliable and efficient pneumatic fastening tools for workshops.",
+imgUrl: pr15, 
+category:"Hydraulic & Pneumatic Tools"
+},
+{
+id:14,
+title: "Hydraulic Jacks",
+desc: "Durable lifting support tools for workshop operations.",
+imgUrl: pr14, 
+category:"Hydraulic & Pneumatic Tools"
+},
+{
+id:13,
+title: "Hydraulic Presses",
+desc: "Powerful pressing solutions for modern workshop tasks.",
+imgUrl: pr13, 
+category:"Hydraulic & Pneumatic Tools"
+},
+{
+id:12,
+title: "Foam Sprayers",
+desc: "Effective foam spraying systems for vehicle cleaning.",
+imgUrl: pr12, 
+category:"Car Wash & Cleaning Systems"
+},
+{
+id:11,
+title: "Vacuum Systems",
+desc: "Reliable and efficient vacuum cleaning systems for workshops.",
+imgUrl: pr11, 
+category:"Car Wash & Cleaning Systems"
+},
+{
+id:10,
+title: "Pressure Washers",
+desc: "High-pressure cleaning systems for tough workshop tasks.",
+imgUrl: pr10, 
+category:"Car Wash & Cleaning Systems"
+},
+{
+id:9,
+title: "Automatic Car Wash",
+desc: "Advanced automated washing systems for vehicle cleaning.",
+imgUrl: pr9, 
+category:"Car Wash & Cleaning Systems"
+},
+{
+id:1,
+title: "Portable Car Lifts",
+desc: "Reliable and efficient portable lifting solutions for workshops.",
+imgUrl: pr1, 
+category:"Vehicle Lifting Solutions"
+},
+{
+id:2,
+title: "Scissor Lifts",
+desc: "Stable and compact scissor lifting systems for workshops.",
+imgUrl: pr2, 
+category:"Vehicle Lifting Solutions"
+},
+{
+id:3,
+title: "Alignment Lifts",
+desc: "Accurate alignment lifting systems for workshop operations.",
+imgUrl: pr3, 
+category:"Vehicle Lifting Solutions"
+},
+{
+id:4,
+title: "Mobile Column Lifts",
+desc: "Flexible and mobile lifting systems for large vehicles.",
+imgUrl: pr4, 
+category:"Vehicle Lifting Solutions"
+},
+{
+id:5,
+title: "Wheel Balancer",
+desc: "Precise wheel balancing solutions for workshop use.",
+imgUrl: pr5, 
+category:"Tire and Wheel Services"
+},
+{
+id:6,
+title: "Tire Inflators",
+desc: "Reliable and efficient tire inflation systems for workshops.",
+imgUrl: pr6, 
+category:"Tire and Wheel Services"
+},
+{
+id:7,
+title: "Rim Straightening Machines",
+desc: "Accurate rim repair systems for workshop applications.",
+imgUrl: pr7, 
+category:"Tire and Wheel Services"
+},
+{
+id:8,
+title: "Nitrogen Tire Inflators",
+desc: "Advanced nitrogen inflation systems for tire performance.",
+imgUrl: pr8, 
+category:"Tire and Wheel Services"
+},
 ]
-
 
 export default productData
