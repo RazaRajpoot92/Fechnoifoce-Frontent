@@ -32,10 +32,7 @@ const serviceData = [
         title:"Car Wash & Cleaning Systems",
         imgUrl:imgUrl5
     },
-    {
-        title:"Servicing Equipment",
-        imgUrl:imgUrl6
-    },
+    
     {
         title:"Air & Fluid Management System",
         imgUrl:imgUrl7
@@ -44,23 +41,28 @@ const serviceData = [
         title:"Diagnostic & Testing Equipment",
         imgUrl:imgUrl8
     },
-    {
-        title:"Power Tools & Equipment",
-        imgUrl:imgUrl9
-    },
+    
     {
         title:"General Workshop Tools",
         imgUrl:imgUrl6
     },
     {
-        title:"Safety & storage Solutions",
+        title:"Safety and Storage (Warehousing) Solutions",
         imgUrl:imgUrl10
     },
     {
-        title:"Maintenance",
+        title:"Servicing Equipment & Maintenance",
         imgUrl:imgUrl11
     }
 
 ]
 
+// {
+//         title:"Servicing Equipment",
+//         imgUrl:imgUrl6
+//     },
+// {
+//         title:"Power Tools & Equipment",
+//         imgUrl:imgUrl9
+//     },
 export default serviceData;

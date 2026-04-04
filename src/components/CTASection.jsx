@@ -1,5 +1,4 @@
-import React from 'react'
-import imgUrl from '../assets/bgTeam.jpeg'
+import { Link } from 'react-router-dom'
 
 const CTASection = () => {
   return (
@@ -9,9 +8,9 @@ const CTASection = () => {
         <p className="text-base md:text-sm sm:text-lg mb-6 text-center max-w-xl">
           Explore the latest automotive and packaging technologies, and get a personalized quote for your garage, workshop, or production facility.
         </p>
-        <button className="bg-yellow-400 hover:cursor-pointer text-white font-semibold px-8 sm:px-12 py-2 sm:py-3 border border-yellow-500 shadow-lg hover:bg-gray-100/10 transition text-sm sm:text-base">
+        <Link to={'/contact'} className="bg-yellow-400 hover:cursor-pointer text-white font-semibold px-8 sm:px-12 py-2 sm:py-3 border border-yellow-500 shadow-lg hover:bg-gray-100/10 transition text-sm sm:text-base">
           Request a Quote
-        </button>
+        </Link>
       </div>
     </div>
   )

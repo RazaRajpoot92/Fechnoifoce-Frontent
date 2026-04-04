@@ -1,16 +1,19 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import ProductsBanner from '../components/ProductsBanner'
 import ProductCard from '../components/ProductCard'
 import SideBar from '../components/SideBar'
 import CTASection from '../components/CTASection'
 import productData from '../data/productsData'
-
+import { useParams } from 'react-router-dom'
 
 
 const ProductsPage = () => {
+    const {category} = useParams()
+    
+    let currCate = category ==undefined? []:[category]
     const [showingProducts, setShowingProducts] = useState(8)
-    const [categories, setCategories] = useState([])
-
+    const [categories, setCategories] = useState(currCate)
+    
     const filteredProducts =
             categories.length > 0
                 ? productData.filter(item => categories.includes(item.category))
@@ -29,12 +32,13 @@ const ProductsPage = () => {
     }
 
     const handleChange = (e) => {
-        const { value, checked } = e.target
-
+        let { value, checked } = e.target
+        
         if (checked) {
 
             setCategories(prev => [...prev, value])
         } else {
+        
             setCategories(prev => prev.filter(item => item !== value))
         }
         
@@ -53,7 +57,7 @@ const ProductsPage = () => {
 
                     <div className="flex flex-col lg:flex-row gap-6 mt-6">
 
-                        <SideBar handleChange = {handleChange} />
+                        <SideBar categories= {categories} handleChange = {handleChange} />
 
                         {/* Products Section */}
                         <div className='w-full flex justify-center'>

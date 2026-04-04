@@ -1,5 +1,6 @@
 import BackDesign from "./BackDesign";
 import carImg from "../assets/car-robotic.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -23,9 +24,9 @@ const Hero = () => {
             perform better, faster, and smarter every single day.
           </p>
 
-          <button className="mt-5 text-lg bg-yellow-500 hover:bg-yellow-400 cursor-pointer w-36 sm:w-44 lg:w-56 py-2 rounded-md font-semibold active:scale-105 transition-all duration-300">
+          <Link to={'/contact'} className="mt-5 text-lg text-center bg-yellow-400 border border-yellow-400 hover:bg-transparent cursor-pointer w-36 sm:w-44 lg:w-56 py-2 font-semibold active:scale-105 transition-all duration-300">
             Get Free Quote
-          </button>
+          </Link>
         </div>
 
         {/* Image */}

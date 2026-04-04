@@ -1,6 +1,7 @@
 import React from 'react'
 import serviceData from '../data/servicesData'
 import ServiceCard from './ServiceCard'
+import { Link } from 'react-router-dom'
 
 
 const ServicesContainer = () => {
@@ -13,7 +14,9 @@ const ServicesContainer = () => {
         
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {serviceData.map((item, idx)=>(
-                    <ServiceCard key={item.title} item = {item} />
+                  <Link key={item.title} to={`/products/${item.title}`}>
+                    <ServiceCard  item = {item} />
+                  </Link>
                 ))}
             </div>
         

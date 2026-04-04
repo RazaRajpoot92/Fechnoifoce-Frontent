@@ -44,19 +44,25 @@ const TeamCard = ({item}) => {
         hover:bg-yellow-400 hover:text-white 
         hover:scale-105
         transition cursor-pointer'>
-          <item.mail size={18} />
+          <a href="mailto:example@gmail.com">
+            <item.mail size={18} />
+          </a>
         </div>
 
         <div className='p-2.5 rounded-full bg-gray-200 
         hover:bg-yellow-400 hover:text-white 
         hover:scale-105
         transition cursor-pointer'>
-          <item.phone size={18} />
+          <a href="tel:+939393939" >
+            <item.phone size={18}  />
+          </a>
         </div>
 
         <div className='p-2 rounded-full bg-gray-200 
         hover:bg-yellow-400 hover:scale-105 transition cursor-pointer'>
-          <img src={item.linked} className='size-6' alt="" />
+          <a href="">
+            <img src={item.linked} className='size-6' alt="" />
+          </a>
         </div>
       </div>
 

@@ -1,6 +1,12 @@
 import React from 'react'
 
 const ContactForm = () => {
+
+    const handleSubmit = (e)=>{
+        e.preventDefault()
+        console.log("form submited")
+    }
+
   return (
     <div className='px-4 sm:px-10 md:px-20 lg:px-45 py-6'>
         
@@ -8,19 +14,23 @@ const ContactForm = () => {
             Just One Click Away
         </h1>
 
-        <form className='transition-all  duration-500 text-gray-500 flex gap-4 flex-col p-2 *:outline-none'>
+        <form onSubmit={(e) => handleSubmit(e)} className='transition-all  duration-500 text-gray-500 flex gap-4 flex-col p-2 *:outline-none'>
             
             {/* Name Fields */}
             <div className='flex flex-col sm:flex-row gap-3 *:outline-none *:focus:border-yellow-400 *:rounded-lg'>
                 <input 
                     className='border focus:border-yellow-400 bg-gray-50/70 border-gray-300 w-full sm:w-1/2 px-3 py-2 rounded-lg transition-all duration-200'  
                     type="text" 
+                    name='First Name'
+                    required = 'true'
                     placeholder='Enter your first name' 
                 />
 
                 <input 
                     className='border focus:border-yellow-400 bg-gray-50/70 border-gray-300 w-full sm:w-1/2 px-3 py-2 rounded-lg transition-all duration-200' 
-                    type="text" 
+                    type="text"
+                    name='Last Name'
+                    required = 'true' 
                     placeholder='Enter your last name' 
                 />
             </div>
@@ -28,13 +38,17 @@ const ContactForm = () => {
             {/* Email */}
             <input 
                 className='border focus:border-yellow-400 rounded-lg bg-gray-50/70 px-3 py-2 border-gray-300 transition-all duration-200' 
-                type="text" 
+                type="email"
+                name='Email' 
+                required = 'true'
                 placeholder='Enter your email' 
             />
 
             {/* Message */}
             <textarea 
                 className='border focus:border-yellow-400 rounded-lg bg-gray-50/70 border-gray-300 min-h-32 px-3 py-2 transition-all duration-200' 
+                name='Message'
+                required = 'true'
                 placeholder='Enter your message...'>
             </textarea>
 

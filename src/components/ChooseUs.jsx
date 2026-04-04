@@ -30,7 +30,7 @@ const ChooseUs = () => {
           </p>
 
           {/* Features */}
-          <div className=' text-white flex flex-wrap gap-4 justify-center md:justify-start'>
+          <div className=' *:hover:cursor-default text-white flex flex-wrap gap-4 justify-center md:justify-start'>
             <div className='flex items-center w-53 gap-2 px-4 py-2 bg-yellow-400 border border-yellow-500 rounded-md hover:bg-white/10 hover:text-yellow-400 transition-all duration-300'>
               <Cpu />
               <h2 className=''>Modern Technology</h2>

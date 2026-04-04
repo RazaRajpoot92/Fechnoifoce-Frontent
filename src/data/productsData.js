@@ -298,28 +298,28 @@ id:5,
 title: "Wheel Balancer",
 desc: "Precise wheel balancing solutions for workshop use.",
 imgUrl: pr5, 
-category:"Tire and Wheel Services"
+category:"Tire & Wheel Services"
 },
 {
 id:6,
 title: "Tire Inflators",
 desc: "Reliable and efficient tire inflation systems for workshops.",
 imgUrl: pr6, 
-category:"Tire and Wheel Services"
+category:"Tire & Wheel Services"
 },
 {
 id:7,
 title: "Rim Straightening Machines",
 desc: "Accurate rim repair systems for workshop applications.",
 imgUrl: pr7, 
-category:"Tire and Wheel Services"
+category:"Tire & Wheel Services"
 },
 {
 id:8,
 title: "Nitrogen Tire Inflators",
 desc: "Advanced nitrogen inflation systems for tire performance.",
 imgUrl: pr8, 
-category:"Tire and Wheel Services"
+category:"Tire & Wheel Services"
 },
 ]
 

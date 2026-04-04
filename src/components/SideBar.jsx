@@ -1,7 +1,8 @@
 import React from 'react'
 import {Check} from 'lucide-react'
 
-const SideBar = ({handleChange}) => {
+const SideBar = ({handleChange, categories}) => {
+    
   return (
     <>
     {/* Sidebar */}
@@ -19,7 +20,7 @@ const SideBar = ({handleChange}) => {
 
                 {[
                     "Vehicle Lifting Solutions",
-                    "Tire and Wheel Services",
+                    "Tire & Wheel Services",
                     "Car Wash & Cleaning Systems",
                     "Hydraulic & Pneumatic Tools",
                     "Body Repair & Paint Solutions",
@@ -35,16 +36,18 @@ const SideBar = ({handleChange}) => {
                         <input
                             type="checkbox"
                             value={cat}
-                            onChange={handleChange}
+                            checked = {categories.includes(cat)}
+                            onChange={(e)=> handleChange(e)}
                             className="hidden peer"
                         />
 
                         {/* Custom UI */}
-                        <div className="w-4 h-4 border-2 border-gray-300 rounded 
+                        
+                        <div className={`w-4 h-4 border-2   border-gray-300 rounded 
                             flex items-center justify-center
                             peer-checked:bg-yellow-300 
                             peer-checked:border-yellow-300
-                            transition">
+                            transition `}>
                                 <Check color='white' />
                             
                             <svg

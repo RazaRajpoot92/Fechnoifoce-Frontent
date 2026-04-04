@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import logoData from "../data/logoImgData"
 
 const ClientSection = () => {
@@ -23,13 +24,13 @@ const ClientSection = () => {
           </p>
         </div>
 
-        <button className='bg-gradient-to-r from-violet-500 to-purple-600 
+        <Link to={"/contact"} className='bg-gradient-to-r from-violet-500 to-purple-600 
         text-white px-8 sm:px-12 py-2.5 rounded-md 
         shadow-md hover:shadow-lg hover:cursor-pointer
         hover:from-violet-600 hover:to-purple-700 
         transition-all duration-300 active:scale-95 mt-8'>
           Become a Client
-        </button>
+        </Link>
       </div>
 
       {/* RIGHT SECTION */}

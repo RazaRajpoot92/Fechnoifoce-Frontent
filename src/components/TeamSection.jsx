@@ -1,14 +1,26 @@
 import TeamCard from "./TeamCard"
 import girl1 from '../assets/girl1.jpg'
+import img1 from "../assets/team/img1.png"
+import img2 from "../assets/team/img2.jpg"
+import img3 from "../assets/team/img3.png"
 import { Mail, PhoneCall } from "lucide-react"
 import linkedinLogo from "../assets/linkedLogo.png"
 
 const teamData = [
   {
     id:1,
-    title:"Areesha Tallat",
-    role:"Head of Sales and Marketing",
-    dp:girl1,
+    title:"M. Tahir Karim",
+    role:"Founder & CEO",
+    dp:img3,
+    phone: PhoneCall,
+    mail: Mail,
+    linked:linkedinLogo,
+  },
+    {
+    id:1,
+    title:"M. Tallat Karim",
+    role:"Founder & Partner",
+    dp:img2,
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,
@@ -17,29 +29,12 @@ const teamData = [
     id:1,
     title:"Areesha Tallat",
     role:"Head of Sales and Marketing",
-    dp:girl1,
+    dp:img1,
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,
   },
-    {
-    id:1,
-    title:"Areesha Tallat",
-    role:"Head of Sales and Marketing",
-    dp:girl1,
-    phone: PhoneCall,
-    mail: Mail,
-    linked:linkedinLogo,
-  },
-  {
-    id:1,
-    title:"Areesha Tallat",
-    role:"Head of Sales and Marketing",
-    dp:girl1,
-    phone: PhoneCall,
-    mail: Mail,
-    linked:linkedinLogo,
-  },
+  
   
 ]
 
@@ -62,7 +57,7 @@ py-12 sm:py-16 px-4 sm:px-6'>
 
   {/* Cards */}
   <div className='mt-10  max-w-6xl 
-  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
+  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
   gap-2 sm:gap-8 justify-items-center'>
 
     {teamData.map((item) => (
