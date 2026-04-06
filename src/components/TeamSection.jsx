@@ -1,5 +1,4 @@
 import TeamCard from "./TeamCard"
-import girl1 from '../assets/girl1.jpg'
 import img1 from "../assets/team/img1.png"
 import img2 from "../assets/team/img2.jpg"
 import img3 from "../assets/team/img3.png"
