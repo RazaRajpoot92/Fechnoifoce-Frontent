@@ -69,9 +69,322 @@ import pr68 from "../assets/products/product68.png";
 import pr69 from "../assets/products/product69.png";
 import pr70 from "../assets/products/product70.png";
 import pr71 from "../assets/products/product71.png";
+import pr72 from "../assets/products/product72.png";
+import pr73 from "../assets/products/product73.png";
+import pr74 from "../assets/products/product74.png";
+import pr75 from "../assets/products/product75.png";
+import pr76 from "../assets/products/product76.png";
+import pr77 from "../assets/products/product77.png";
+import pr78 from "../assets/products/product78.png";
+import pr79 from "../assets/products/product79.png";
+import pr80 from "../assets/products/product80.png";
+import pr81 from "../assets/products/product81.png";
+import pr82 from "../assets/products/product82.png";
+import pr83 from "../assets/products/product83.png";
+import pr84 from "../assets/products/product84.png";
+import pr85 from "../assets/products/product85.png";
+import pr86 from "../assets/products/product86.png";
+import pr87 from "../assets/products/product87.png";
+import pr88 from "../assets/products/product88.png";
+import pr89 from "../assets/products/product89.png";
+import pr90 from "../assets/products/product90.png";
+import pr91 from "../assets/products/product91.png";
+import pr92 from "../assets/products/product92.png";
+import pr93 from "../assets/products/product93.png";
+import pr94 from "../assets/products/product94.png";
+import pr95 from "../assets/products/product95.png";
+import pr96 from "../assets/products/product96.png";
+import pr97 from "../assets/products/product97.png";
+import pr98 from "../assets/products/product98.png";
+import pr99 from "../assets/products/product99.png";
+import pr100 from "../assets/products/product100.png";
+import pr101 from "../assets/products/product101.png";
+import pr102 from "../assets/products/product102.png";
+import pr103 from "../assets/products/product103.png";
+import pr104 from "../assets/products/product104.png";
+import pr105 from "../assets/products/product105.png";
+import pr106 from "../assets/products/product106.png";
+import pr107 from "../assets/products/product107.png";
+import pr108 from "../assets/products/product108.png";
+import pr109 from "../assets/products/product109.png";
+import pr110 from "../assets/products/product110.png";
 
 
 const productData = [
+  {
+    id: 110,
+    title: "Coolant Dispensing Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr110,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 109,
+    title: "Bulk Oil Storage Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr109,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 108,
+    title: "Hose Reels for Air and Fluid",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr108,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 107,
+    title: "Fluid Monitoring Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr107,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 106,
+    title: "Metered Oil Control Valves",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr106,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 105,
+    title: "Desiccant Air Dryers",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr105,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 104,
+    title: "Vacuum Pumps",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr104,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 103,
+    title: "Refrigerated Air Dryers",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr103,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 102,
+    title: "Hydraulic Oil Coolers",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr102,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 101,
+    title: "Grease Pumps",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr101,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 100,
+    title: "Oil Filtration Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr100,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 99,
+    title: "Automatic Drain Valves",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr99,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 98,
+    title: "Fuel Transfer Pumps",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr98,
+    category: "Air & Fluid Management System",
+  },
+    {
+    id: 97,
+    title: "Air Regulators",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr97,
+    category: "Air & Fluid Management System",
+  },
+
+  {
+    id: 96,
+    title: "Compressed Air Filters",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr96,
+    category: "Air & Fluid Management System",
+  },
+  {
+    id: 95,
+    title: "Paint Drying Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr95,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 94,
+    title: "Paint Thickness Gauges",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr94,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 93,
+    title: "Body Filler Applicators",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr93,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 92,
+    title: "Spot Welders",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr92,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 91,
+    title: "Polishing Machines",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr91,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 90,
+    title: "Buffing Machines",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr90,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 89,
+    title: "Dust Extraction Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr89,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 88,
+    title: "Paint Stripping Tools",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr88,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 87,
+    title: "Panel Beating Machines",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr87,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 86,
+    title: "Heat Guns",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr86,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 85,
+    title: "Paint Booths",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr85,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 84,
+    title: "Collision Repair Benches",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr84,
+    category: "Body Repair & Paint Solutions",
+  },
+  {
+    id: 83,
+    title: "Paint Mixing Systems",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr83,
+    category: "Body Repair & Paint Solutions",
+    },
+  {
+    id: 82,
+    title: "Hydraulic Power Units",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr82,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 81,
+    title: "Pneumatic Rivet Guns",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr81,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 80,
+    title: "Hydraulic Lifting Tables",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr80,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 79,
+    title: "Pneumatic Sanders",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr79,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 78,
+    title: "Hydraulic Crimping Tools ",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr78,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 77,
+    title: "Pneumatic Grinders",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr77,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 76,
+    title: "Hydraulic Torque Wrenches",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr76,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 75,
+    title: "Air Compressors",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr75,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 74,
+    title: "Pneumatic Nail Guns",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr74,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 73,
+    title: "Hydraulic Pipe Benders",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr73,
+    category: "Hydraulic & Pneumatic Tools",
+    },
+  {
+    id: 72,
+    title: "Pneumatic Drills",
+    desc: "Reliable and efficient oil change systems for modern workshops.",
+    imgUrl: pr72,
+    category: "Hydraulic & Pneumatic Tools",
+    },
     {
     id: 71,
     title: "Spot-Free Rinse Systems",
