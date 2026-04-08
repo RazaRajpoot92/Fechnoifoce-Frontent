@@ -11,8 +11,8 @@ const WorkWithUs = () => {
             
         </div>
 
-        <div className='flex flex-col items-center mt-40 '>
-            <h1 className='text-5xl font-semibold text-gray-700'>The Way We <span className='text-yellow-400'>Deliver</span> </h1>
+        <div className='flex flex-col items-center mt-30 '>
+            <h1 className=' text-3xl sm:text-5xl font-semibold text-gray-700'>The Way We <span className='text-yellow-400'>Deliver</span> </h1>
             <p className='text-yellow-400 mb-8'>6 Steps From Concept to Completion</p>    
             <OurProcess />
         </div>

@@ -18,7 +18,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-gray-300 leading-7 tracking-wide px-2 sm:px-0">
-            Delivering reliable <span className="text-yellow-500">electromechanical</span> and <span className="text-yellow-500">packaging</span> solutions that keep industries
+            Delivering reliable <span className="text-gray-300">electromechanical</span> and <span className="text-gray-300">packaging</span> solutions that keep industries
             moving. Our expert engineers ensure efficient installation,
             maintenance, and optimization of machinery, helping your operations
             perform better, faster, and smarter every single day.
