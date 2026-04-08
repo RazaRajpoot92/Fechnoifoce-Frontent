@@ -5,7 +5,7 @@ import teamImg from "../assets/bgTeam.jpeg"
 const ProductsBanner = () => {
   return (
     <div className="flex w-full justify-center bg-gray-50 px-2 py-4">
-      <div className="flex flex-col lg:flex-row items-center w-[85%] max-w-6xl rounded-2xl 
+      <div className="flex flex-col lg:flex-row items-center w-full sm:w-[85%] max-w-6xl rounded-2xl 
       bg-gradient-to-r from-yellow-200  to-yellow-300/80 text-gray-700 
       px-6 sm:px-10 py-10 gap-6">
 
