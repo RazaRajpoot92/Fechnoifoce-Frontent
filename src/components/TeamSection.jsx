@@ -12,26 +12,35 @@ const teamData = [
     role:"Founder & CEO",
     dp:img3,
     phone: PhoneCall,
+    phoneNum:"+971564840532",
+    emailAdd:"techno.iforce@gmail.com",
     mail: Mail,
     linked:linkedinLogo,
+    linkedUrl:"https://www.linkedin.com/"
   },
     {
-    id:1,
+    id:2,
     title:"M. Tallat Karim",
     role:"Founder & Partner",
     dp:img2,
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,
+    phoneNum:"+971503448668",
+    emailAdd:"techno.iforce@gmail.com",
+    linkedUrl:"https://www.linkedin.com/"
   },
     {
-    id:1,
+    id:3,
     title:"Areesha Tallat",
     role:"Head of Sales and Marketing",
     dp:img1,
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,
+    phoneNum:"+923435230886",
+    emailAdd:"areeshatallat98@gmail.com",
+    linkedUrl:"https://www.linkedin.com/in/areesha-tallat-31a823130/"
   },
   
   

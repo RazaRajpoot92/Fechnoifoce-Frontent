@@ -5,11 +5,13 @@ import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ProductsPage from './pages/ProductsPage'
 import ContactUsPage from './pages/ContactUsPage'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
       <BrowserRouter >
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path='/' element = {<HomePage />} />
         <Route path='/products' element = {<ProductsPage />} />
@@ -19,10 +21,6 @@ const App = () => {
       <Footer />
 
       </BrowserRouter>
-
-      
-    
-    
   )
 }
 

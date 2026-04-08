@@ -4,8 +4,10 @@ const ContactForm = () => {
 
     const handleSubmit = (e)=>{
         e.preventDefault()
-        console.log("form submited")
+        
     }
+
+    //onSubmit={(e) => handleSubmit(e)}
 
   return (
     <div className='px-4 sm:px-10 md:px-20 lg:px-45 py-6'>
@@ -14,7 +16,7 @@ const ContactForm = () => {
             Just One Click Away
         </h1>
 
-        <form onSubmit={(e) => handleSubmit(e)} className='transition-all  duration-500 text-gray-500 flex gap-4 flex-col p-2 *:outline-none'>
+        <form method='Post' action={'https://formspree.io/f/xwvwzgpw'}  className='transition-all  duration-500 text-gray-500 flex gap-4 flex-col p-2 *:outline-none'>
             
             {/* Name Fields */}
             <div className='flex flex-col sm:flex-row gap-3 *:outline-none *:focus:border-yellow-400 *:rounded-lg'>

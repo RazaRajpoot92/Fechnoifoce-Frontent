@@ -6,7 +6,7 @@ const contactCardData = [
     {
     id:1,
     icon: Mail,
-    data:["enchno.iforce@gmail.com", "tencho.iforceservice@gmail.com"]
+    data:["techno.iforce@gmail.com", "techo.iforceservice@gmail.com"]
     },
     {
     id:2,

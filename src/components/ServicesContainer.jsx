@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const ServicesContainer = () => {
    
   return (
-    <div className='bg-gray-50 relative pb-4 gap-4 flex flex-col items-center'>
+    <div id='services' className='bg-gray-50 relative pb-4 gap-4 flex flex-col items-center'>
         
         <h1 className='font-bold text-xl md:text-4xl text-gray-800 mb-4'>Key Services <span className='text-yellow-400'>Offering</span></h1>
 

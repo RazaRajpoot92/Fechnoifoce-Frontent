@@ -1,6 +1,4 @@
-import girl1 from '../assets/girl1.jpg'
-import { Mail, PhoneCall } from "lucide-react"
-import linkedinLogo from "../assets/linkedLogo.png"
+
 
 const TeamCard = ({item}) => {
   return (
@@ -44,7 +42,7 @@ const TeamCard = ({item}) => {
         hover:bg-yellow-400 hover:text-white 
         hover:scale-105
         transition cursor-pointer'>
-          <a href="mailto:example@gmail.com">
+          <a href={`mailto:${item.emailAdd}`}>
             <item.mail size={18} />
           </a>
         </div>
@@ -53,14 +51,14 @@ const TeamCard = ({item}) => {
         hover:bg-yellow-400 hover:text-white 
         hover:scale-105
         transition cursor-pointer'>
-          <a href="tel:+939393939" >
-            <item.phone size={18}  />
+          <a href={`tel:${item.phoneNum}`} >
+            <item.phone size={18}/>
           </a>
         </div>
 
         <div className='p-2 rounded-full bg-gray-200 
         hover:bg-yellow-400 hover:scale-105 transition cursor-pointer'>
-          <a href="">
+          <a href={`${item.linkedUrl}`} target="_blank">
             <img src={item.linked} className='size-6' alt="" />
           </a>
         </div>

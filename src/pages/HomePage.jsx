@@ -13,7 +13,8 @@ const HomePage = () => {
     <div className=''>
       <Hero />
       <ChooseUs />
-      <ServicesContainer />
+      <div id='services'></div>
+      < ServicesContainer />
       <WorkWithUs />
       <ClientSection />
       <TeamSection />
