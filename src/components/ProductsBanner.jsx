@@ -21,11 +21,13 @@ const ProductsBanner = () => {
 
         {/* Image Section */}
         <div className="flex-1 flex justify-center">
-          <img 
-            className="w-60 rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
-            src={teamImg} 
-            alt="Automotive Solutions" 
-          />  
+          
+            <img 
+              className="w-60 min-h-70 rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
+              src={teamImg} 
+              alt="Automotive Solutions" 
+            />
+           
         </div>
 
       </div>

@@ -27,7 +27,7 @@ const ContactBanner = () => {
 
 
         <div className='w-full max-w-sm lg:w-100 flex justify-center'>
-            <img src={contactImg} className='w-full lg:w-100' alt="" />
+            <img src={contactImg} className='w-full lg:w-100 min-h-80' alt="" />
         </div>
 
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { BookUser, Cpu, Heart, Rocket } from 'lucide-react'
-import carImg from "../assets/eventImg1.jpeg"
+import eventImg from "../assets/eventImg.png"
 
 const ChooseUs = () => {
   return (
@@ -11,7 +11,7 @@ const ChooseUs = () => {
         
         <div className=' rounded-2xl z-40  mt-2 border-10 border-b-yellow-200 border-r-yellow-200 border-l-yellow-400 border-t-yellow-400'>
     
-          <img className=' w-90 md:w-80 h-90 rounded-md z-40' src={carImg} alt="Car" />
+          <img className=' w-90 md:w-80 h-90 rounded-md z-40' src={eventImg} alt="Car" />
         </div>
       </div>
 

@@ -37,8 +37,8 @@ const Footer = () => {
             <p className="text-gray-400 mb-2">UAE: +971564840532 / +971503448668</p>
             <p className="text-gray-400 mb-2">Pakistan: +923435230886</p>
           </div>
-          <p className="text-gray-400 mb-2">Email: enchno.iforce@gmail.com</p>
-          <p className="text-gray-400 mb-2">Email: tencho.iforceservice@gmail.com</p>
+          <p className="text-gray-400 mb-2">Email: techno.iforce@gmail.com</p>
+          <p className="text-gray-400 mb-2">Email: techno.iforceservice@gmail.com</p>
 
           <p className="text-gray-400 text-center lg:text-left">
             Al Dam, Al Mali, Al Quoz 3 Bur Office 106
