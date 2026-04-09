@@ -73,7 +73,9 @@ const ProductsPage = () => {
                                         filteredProducts
                                             .slice(showingProducts - 8, showingProducts)
                                             .map((item) => (
-                                                <ProductCard key={item.id} item={item} />
+                                                <div data-aos='zoom-in' >
+                                                    <ProductCard key={item.id} item={item} />
+                                                </div>
                                             ))
                                     }
                                 </div>

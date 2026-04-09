@@ -7,7 +7,7 @@ const ContactBanner = () => {
     items-center justify-center bg-linear-to-br from-slate-900 to-blue-950'>
 
     
-        <div className='flex flex-col items-center lg:items-start pt-5 gap-4 w-full lg:w-120 text-center lg:text-left'>
+        <div data-aos='fade-right' className='flex flex-col items-center lg:items-start pt-5 gap-4 w-full lg:w-120 text-center lg:text-left'>
             <h1 className='text-yellow-400 font-bold text-3xl sm:text-4xl'>
                 Get Expert Solutions Today
             </h1>
@@ -26,8 +26,8 @@ const ContactBanner = () => {
         </div>
 
 
-        <div className='w-full max-w-sm lg:w-100 flex justify-center'>
-            <img src={contactImg} className='w-full lg:w-100 min-h-80' alt="" />
+        <div data-aos='fade-left' className='w-full max-w-sm lg:w-100 flex justify-center'>
+            <img src={contactImg} className='w-full lg:w-100 min-h-85' alt="" />
         </div>
 
     </div>

@@ -69,7 +69,9 @@ py-12 sm:py-16 px-4 sm:px-6'>
   gap-2 sm:gap-8 justify-items-center'>
 
     {teamData.map((item) => (
-      <TeamCard key={item.id} item={item} />
+      <div data-aos = 'zoom-in'>
+        <TeamCard key={item.id} item={item} />
+      </div>
     ))}
 
   </div>

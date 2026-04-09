@@ -14,8 +14,10 @@ const ServicesContainer = () => {
         
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {serviceData.map((item, idx)=>(
-                  <Link key={item.title} to={`/products/${item.title}`}>
+                  <Link  key={item.title} to={`/products/${item.title}`}>
+                    <div data-aos='zoom-in'>
                     <ServiceCard  item = {item} />
+                    </div>
                   </Link>
                 ))}
             </div>

@@ -39,7 +39,9 @@ const OurProcess = () => {
         
 
         {ProcessData.map((item, idx)=>(
-            <ProcessCard item = {item} id={idx} key={idx}  />
+            <div data-aos='zoom-in'>
+                <ProcessCard item = {item} id={idx} key={idx}  />
+            </div>
         ))}
 
     

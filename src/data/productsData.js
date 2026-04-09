@@ -828,14 +828,14 @@ const productData = [
   {
     id: 119,
     title: "OBD Scanners Emission Testers",
-    desc: "Efficient tools for reading vehicle diagnostics and monitoring emission levels accurately.",
+    desc: "Efficient tools for reading vehicle diagnostics and monitoring emission.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product119.png",
     category: "Diagnostic & Testing Equipment"
   },
   {
     id: 120,
     title: "Oscilloscopes for Automotive Diagnostics",
-    desc: "Advanced diagnostic tools for analyzing vehicle electrical signals and performance data.",
+    desc: "Advanced diagnostic tools for analyzing vehicle electrical signals.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product120.png",
     category: "Diagnostic & Testing Equipment"
   },
@@ -849,7 +849,7 @@ const productData = [
   {
     id: 122,
     title: "Data Loggers for Vehicle Performance",
-    desc: "Advanced devices for recording and analyzing vehicle performance data in real time.",
+    desc: "Advanced devices for recording and analyzing vehicle performance",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product122.png",
     category: "Diagnostic & Testing Equipment"
   },
@@ -870,7 +870,7 @@ const productData = [
   {
     id: 125,
     title: "Warehouse Ventilation Systems",
-    desc: "Air circulation systems designed to maintain safe and comfortable warehouse environments.",
+    desc: "Air circulation systems designed to maintain safe and comfortable.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product125.png",
     category: "Safety and Storage (Warehousing) Solutions"
   },
@@ -884,7 +884,7 @@ const productData = [
   {
     id: 127,
     title: "Ladders and Access Platforms",
-    desc: "Safe and stable access solutions for elevated work and warehouse maintenance tasks.",
+    desc: "Safe and stable access solutions for elevated work and warehouse",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product127.png",
     category: "Safety and Storage (Warehousing) Solutions"
   },
@@ -898,7 +898,7 @@ const productData = [
   {
     id: 129,
     title: "Warehouse Signage and Labels",
-    desc: "Clear labeling and signage solutions for improving warehouse safety and organization.",
+    desc: "Clear labeling and signage solutions for improving warehouse safety.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product129.png",
     category: "Safety and Storage (Warehousing) Solutions"
   },
@@ -912,7 +912,7 @@ const productData = [
   {
     id: 131,
     title: "Protective Equipment Stations",
-    desc: "Centralized storage units for quick access to personal protective equipment in workplaces.",
+    desc: "Centralized storage units for quick access to personal protective equipment.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product131.png",
     category: "Safety and Storage (Warehousing) Solutions"
   },
@@ -961,7 +961,7 @@ const productData = [
   {
     id: 138,
     title: "Parts Washers",
-    desc: "Efficient cleaning systems designed to remove grease, oil, and contaminants from mechanical parts.",
+    desc: "Efficient cleaning systems designed to remove grease, oil, and contaminants.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product138.png",
     category: "General Workshop Tools"
   },
@@ -1003,14 +1003,14 @@ const productData = [
   {
     id: 144,
     title: "Measuring Tools (Calipers, Micrometers)",
-    desc: "Precision instruments for accurate measurement in mechanical and engineering tasks.",
+    desc: "Precision instruments for accurate measurement in mechanical.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product144.png",
     category: "General Workshop Tools"
   },
   {
     id: 145,
     title: "Safety Cabinets for Flammable Materials",
-    desc: "Secure storage cabinets designed for safe handling of flammable liquids and chemicals.",
+    desc: "Secure storage cabinets designed for safe handling of flammable liquids.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product145.png",
     category: "General Workshop Tools"
   },
@@ -1038,7 +1038,7 @@ const productData = [
   {
     id: 149,
     title: "Engine Decarbonizing Machines",
-    desc: "Equipment designed to remove carbon deposits and improve engine efficiency and performance.",
+    desc: "Equipment designed to remove carbon deposits and improve engine efficiency.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product149.png",
     category: "Servicing Equipment & Maintenance"
   },
@@ -1052,35 +1052,35 @@ const productData = [
   {
     id: 151,
     title: "Pressure Monitoring Systems",
-    desc: "Systems designed to accurately measure and monitor pressure in automotive systems.",
+    desc: "Systems designed to accurately monitor pressure in automotive systems.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product151.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 152,
     title: "Diagnostic Smoke Machines",
-    desc: "Leak detection systems using smoke technology to identify air and vacuum system issues.",
+    desc: "Leak detection systems using smoke technology to identify air system issues.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product152.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 153,
     title: "Carburetor Cleaning Machines",
-    desc: "Precision cleaning systems for removing deposits and improving carburetor performance.",
+    desc: "Precision cleaning systems for removing deposits carburetor performance.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product153.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 154,
     title: "AC Recovery and Recharge Machines",
-    desc: "Automated systems for recovering and recharging vehicle air conditioning refrigerants.",
+    desc: "Automated systems for recovering vehicle air conditioning refrigerants.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product154.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 155,
     title: "Battery Chargers and Maintainers",
-    desc: "Reliable devices for charging, maintaining, and extending automotive battery life.",
+    desc: "Reliable devices for charging and extending automotive battery life.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product155.png",
     category: "Servicing Equipment & Maintenance"
   },
@@ -1094,21 +1094,21 @@ const productData = [
   {
     id: 157,
     title: "Tire Storage Racks",
-    desc: "Durable storage systems designed to safely organize and store tires in workshops or warehouses.",
+    desc: "Durable storage systems designed to safely organize and store tires in workshops.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product157.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 158,
     title: "Transmission Fluid Exchange Machines",
-    desc: "Advanced machines for efficient replacement and circulation of transmission fluid systems.",
+    desc: "Advanced machines for efficient replacement of transmission fluid systems.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product158.png",
     category: "Servicing Equipment & Maintenance"
   },
   {
     id: 159,
     title: "Exhaust Extraction Systems",
-    desc: "Ventilation systems designed to safely remove harmful exhaust gases from workshop environments.",
+    desc: "Ventilation systems designed to safely remove harmful exhaust gases.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product159.png",
     category: "Servicing Equipment & Maintenance"
   }

@@ -2,7 +2,7 @@
 
 const ProductCard = ({item}) => {
   return (
-    <div className="w-55 rounded-xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition duration-300 hover:scale-105">
+    <div className="w-55 h-78 rounded-xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition duration-300 hover:scale-105">
       
       {/* Image */}
       <div className="bg-gradient-to-r from-yellow-50  to-yellow-200/80 flex justify-center items-center h-44">

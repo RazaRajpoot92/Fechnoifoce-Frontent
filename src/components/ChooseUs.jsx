@@ -22,7 +22,7 @@ const ChooseUs = () => {
         <div className='absolute w-72 h-72 md:w-80 md:h-80 rounded-full -bottom-32 -right-32 bg-linear-to-br from-yellow-200 via-yellow-300 to-orange-300'></div>
         
         <div className='z-10 flex flex-col items-center md:items-start gap-6'>
-          <h1 className='font-bold text-3xl sm:text-4xl text-gray-800 text-center md:text-left'>
+          <h1 data-aos="zoom-in" className='font-bold text-3xl sm:text-4xl text-gray-800 text-center md:text-left'>
             Why Choose <span className='text-yellow-500'>Us</span>
           </h1>
           <p className='text-sm sm:text-base text-gray-600 max-w-md text-center md:text-left'>

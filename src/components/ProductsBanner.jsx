@@ -10,7 +10,7 @@ const ProductsBanner = () => {
       px-6 sm:px-10 py-10 gap-6">
 
         {/* Text Section */}
-        <div className="flex-1 text-center lg:text-left">
+        <div data-aos='fade-right' className="flex-1 text-center lg:text-left">
           <h1 className="font-bold mb-3 text-2xl sm:text-3xl lg:text-4xl leading-tight">
             One Stop for Automotive & Packaging <span className="text-orange-400">Solutions</span>
           </h1>  
@@ -20,10 +20,10 @@ const ProductsBanner = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex-1 flex justify-center">
+        <div data-aos='fade-left' className="flex-1 flex justify-center">
           
             <img 
-              className="w-60 min-h-70 rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
+              className="w-60 min-h-72 rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
               src={teamImg} 
               alt="Automotive Solutions" 
             />

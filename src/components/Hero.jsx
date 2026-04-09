@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-around w-full max-w-6xl relative px-4 md:px-6 gap-8">
         
         {/* Text Content */}
-        <div className="flex flex-col gap-5 md:gap-6 md:w-1/2 items-center md:items-start text-center md:text-left">
+        <div data-aos='fade-right' className="flex flex-col gap-5 md:gap-6 md:w-1/2 items-center md:items-start text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
             Techno I <span className="text-yellow-500">Force</span>
           </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div data-aos="fade-left" className="md:w-1/2 flex justify-center md:justify-end">
           <img
             src={carImg}
             alt="Robotic Car"
