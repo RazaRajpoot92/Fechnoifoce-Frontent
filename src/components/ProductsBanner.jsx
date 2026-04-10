@@ -1,5 +1,3 @@
-import React from 'react'
-import car from "../assets/car-robotic.png"
 import teamImg from "../assets/bgTeam.jpeg"
 
 const ProductsBanner = () => {
