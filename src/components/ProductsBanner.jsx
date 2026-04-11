@@ -1,5 +1,5 @@
-import teamImg from "../assets/bgTeam.jpeg"
 
+const teamImg = "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Banners/bannerImg2.jpeg"
 const ProductsBanner = () => {
   return (
     <div className="flex w-full justify-center bg-gray-50 px-2 py-4">

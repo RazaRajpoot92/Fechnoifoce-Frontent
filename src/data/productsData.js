@@ -144,28 +144,28 @@ const productData = [
     title: "Air Dryers",
     desc: "Efficient air drying systems for clean workshop operations.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product21.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 22,
     title: "Lubrication Pumps",
     desc: "Smooth and consistent lubrication systems for workshop use.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product22.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 23,
     title: "Oil Dispensing Systems",
     desc: "Reliable and efficient oil dispensing systems for workshops.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product23.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 24,
     title: "Fluid Extractors",
     desc: "High-performance fluid extraction systems for workshops.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product24.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 25,
@@ -297,7 +297,7 @@ const productData = [
     id: 43,
     title: "Four-Post Lifts",
     desc: "Heavy-duty lifts providing maximum stability for vehicle servicing and storage.",
-    imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product43.png",
+    imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product43.png?v=2",
     category: "Vehicle Lifting Solutions"
   },
   {
@@ -669,105 +669,105 @@ const productData = [
     title: "Compressed Air Filters",
     desc: "Filtration systems for ensuring clean and dry compressed air supply.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product96.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 97,
     title: "Air Regulators",
     desc: "Precision devices for controlling air pressure in workshop systems.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product97.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 98,
     title: "Fuel Transfer Pumps",
     desc: "Efficient pumps for safe and fast fuel transfer operations.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product98.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 99,
     title: "Automatic Drain Valves",
     desc: "Smart valves for automatic removal of condensation from air systems.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product99.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 100,
     title: "Oil Filtration Systems",
     desc: "Advanced systems for removing impurities and extending oil life.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product100.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 101,
     title: "Grease Pumps",
     desc: "Durable pumps designed for efficient grease distribution in machinery.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product101.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 102,
     title: "Hydraulic Oil Coolers",
     desc: "Efficient cooling systems for maintaining optimal hydraulic oil temperature.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product102.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 103,
     title: "Refrigerated Air Dryers",
     desc: "Reliable systems for cooling and drying compressed air effectively.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product103.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 104,
     title: "Vacuum Pumps",
     desc: "Powerful pumps for creating vacuum pressure in automotive applications.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product104.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 105,
     title: "Desiccant Air Dryers",
     desc: "High-efficiency dryers for removing moisture from compressed air systems.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product105.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 106,
     title: "Metered Oil Control Valves",
     desc: "Precision valves for accurate oil dispensing and flow control.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product106.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 107,
     title: "Fluid Monitoring Systems",
     desc: "Smart systems for tracking and controlling fluid usage in workshops.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product107.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 108,
     title: "Hose Reels for Air and Fluid",
     desc: "Durable hose management systems for organized workshop fluid distribution.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product108.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 109,
     title: "Bulk Oil Storage Systems",
     desc: "Large-capacity storage solutions for safe and organized oil handling.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product109.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 110,
     title: "Coolant Dispensing Systems",
     desc: "Efficient systems for controlled coolant transfer and vehicle maintenance.",
     imgUrl: "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/product110.png",
-    category: "Air & Fluid Management System"
+    category: "Air, Oil and Water Management System"
   },
   {
     id: 111,

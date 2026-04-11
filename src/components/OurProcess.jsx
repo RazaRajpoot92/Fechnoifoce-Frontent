@@ -1,5 +1,4 @@
-import React from 'react'
-import imgUrl from "../assets/maintain.png"
+
 import {PhoneCall, ShieldCheck, MessageSquareQuote, Waypoints,Van, ShieldUser} from "lucide-react"
 
 const ProcessData = [

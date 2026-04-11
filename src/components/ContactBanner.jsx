@@ -1,5 +1,5 @@
-import React from 'react'
-import contactImg from '../assets/contactImg.png'
+
+const contactImg = "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Banners/bannerImg3.png"
 
 const ContactBanner = () => {
   return (

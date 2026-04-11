@@ -1,7 +1,7 @@
 import BackDesign from "./BackDesign";
-import carImg from "../assets/car-robotic.png";
 import { Link } from "react-router-dom";
 
+const carImg = "https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Banners/bannerImg1.png"
 const Hero = () => {
   return (
     <section className="pt-14 flex justify-center relative overflow-hidden min-h-screen md:h-[80vh] lg:h-screen 2xl:h-[55vh] bg-gray-900 text-white">

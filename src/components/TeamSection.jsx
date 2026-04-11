@@ -1,7 +1,5 @@
 import TeamCard from "./TeamCard"
-import img1 from "../assets/team/img1.png"
-import img2 from "../assets/team/img2.jpg"
-import img3 from "../assets/team/img3.png"
+
 import { Mail, PhoneCall } from "lucide-react"
 import linkedinLogo from "../assets/linkedLogo.png"
 
@@ -10,7 +8,7 @@ const teamData = [
     id:1,
     title:"M. Tahir Karim",
     role:"Founder & CEO",
-    dp:img3,
+    dp:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Team/img3.jpeg",
     phone: PhoneCall,
     phoneNum:"+971564840532",
     emailAdd:"techno.iforce@gmail.com",
@@ -22,7 +20,7 @@ const teamData = [
     id:2,
     title:"M. Tallat Karim",
     role:"Founder & Partner",
-    dp:img2,
+    dp:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Team/img2.jpg",
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,
@@ -34,7 +32,7 @@ const teamData = [
     id:3,
     title:"Areesha Tallat",
     role:"Head of Sales and Marketing",
-    dp:img1,
+    dp:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Team/img1.png",
     phone: PhoneCall,
     mail: Mail,
     linked:linkedinLogo,

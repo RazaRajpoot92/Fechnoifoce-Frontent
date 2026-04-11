@@ -1,58 +1,57 @@
-import imgUrl from "../assets/lifting.jpg"
-import imgUrl2 from "../assets/tireservices.jpg"
-import imgUrl3 from '../assets/tools.jpg'
-import imgUrl4 from '../assets/paints.png'
-import imgUrl5 from '../assets/wash.jpg'
-import imgUrl6 from '../assets/equipment.jpg'
-import imgUrl7 from '../assets/airsystem.jpg'
-import imgUrl8 from '../assets/testing.png'
-import imgUrl9 from '../assets/powertools.png'
-import imgUrl10 from '../assets/storage.jpg'
-import imgUrl11 from '../assets/maintain.png'
+// import imgUrl from "../assets/lifting.jpg"
+// import imgUrl2 from "../assets/tireservices.jpg"
+// import imgUrl3 from '../assets/tools.jpg'
+// import imgUrl4 from '../assets/paints.png'
+// import imgUrl5 from '../assets/wash.jpg'
+// import imgUrl6 from '../assets/equipment.jpg'
+// import imgUrl7 from '../assets/airsystem.jpg'
+// import imgUrl8 from '../assets/testing.png'
+// import imgUrl10 from '../assets/storage.jpg'
+// import imgUrl11 from '../assets/maintain.png'
 
 
 const serviceData = [
     {
         title:"Vehicle Lifting Solutions",
-        imgUrl:imgUrl
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg1.jpg"
     },
     {
         title:"Tire & Wheel Services",
-        imgUrl:imgUrl2
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg2.jpg"
     },
     {
         title:"Hydraulic & Pneumatic Tools",
-        imgUrl:imgUrl3
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg3.jpg"
     },
     {
         title:"Body Repair & Paint Solutions",
-        imgUrl:imgUrl4
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg4.png"
     },
     {
         title:"Car Wash & Cleaning Systems",
-        imgUrl:imgUrl5
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg5.jpg"
     },
     
     {
-        title:"Air & Fluid Management System",
-        imgUrl:imgUrl7
+        title:"Air, Oil and Water Management System",
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg7.png"
     },
     {
         title:"Diagnostic & Testing Equipment",
-        imgUrl:imgUrl8
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg8.png"
     },
     
     {
         title:"General Workshop Tools",
-        imgUrl:imgUrl6
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg6.jpg"
     },
     {
         title:"Safety and Storage (Warehousing) Solutions",
-        imgUrl:imgUrl10
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg9.jpg"
     },
     {
         title:"Servicing Equipment & Maintenance",
-        imgUrl:imgUrl11
+        imgUrl:"https://ik.imagekit.io/fn27qkx70/Techno%20Force%20Products/Services/serviceImg10.png"
     }
 
 ]

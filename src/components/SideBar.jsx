@@ -24,7 +24,7 @@ const SideBar = ({handleChange, categories}) => {
                     "Car Wash & Cleaning Systems",
                     "Hydraulic & Pneumatic Tools",
                     "Body Repair & Paint Solutions",
-                    "Air & Fluid Management System",
+                    "Air, Oil and Water Management System",
                     "Diagnostic & Testing Equipment",
                     "Safety and Storage (Warehousing) Solutions",
                     "General Workshop Tools",

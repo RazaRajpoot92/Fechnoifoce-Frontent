@@ -1,4 +1,3 @@
-import React from 'react'
 import { BookUser, Cpu, Heart, Rocket } from 'lucide-react'
 import eventImg from "../assets/eventImg.png"
 
