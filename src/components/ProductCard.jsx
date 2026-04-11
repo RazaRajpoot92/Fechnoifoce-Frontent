@@ -9,8 +9,10 @@ const ProductCard = ({item}) => {
         <img 
           src={item.imgUrl} 
           loading="lazy"
-          alt="Scissor Lifts" 
-          className="h-32 object-contain"
+          alt="Scissor Lifts"
+          
+          onLoad={(e) => e.target.classList.remove("blur-sm")} 
+          className="h-32 object-contain blur-sm transition duration-300"
         />
       </div>
 
