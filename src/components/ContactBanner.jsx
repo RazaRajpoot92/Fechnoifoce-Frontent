@@ -27,7 +27,7 @@ const ContactBanner = () => {
 
 
         <div data-aos='fade-left' className='w-full max-w-sm lg:w-100 flex justify-center'>
-            <img src={contactImg} className='w-full lg:w-100 min-h-85' alt="" />
+            <img loading="lazy" src={contactImg} className='w-full lg:w-100 min-h-85' alt="" />
         </div>
 
     </div>

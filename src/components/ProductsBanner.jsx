@@ -21,6 +21,7 @@ const ProductsBanner = () => {
         <div data-aos='fade-left' className="flex-1 flex justify-center">
           
             <img 
+              loadding='lazy'
               className="w-60  rounded-2xl opacity-95 border-4 border-orange-400 sm:w-80 lg:w-96 object-contain" 
               src={teamImg} 
               alt="Automotive Solutions" 

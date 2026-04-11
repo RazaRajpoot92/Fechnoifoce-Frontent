@@ -32,6 +32,7 @@ const Hero = () => {
         {/* Image */}
         <div data-aos="fade-left" className="md:w-1/2 flex justify-center md:justify-end">
           <img
+            loading="lazy"
             src={carImg}
             alt="Robotic Car"
             className="w-72 sm:w-80 md:w-96 lg:w-[520px] lg:h-auto"
