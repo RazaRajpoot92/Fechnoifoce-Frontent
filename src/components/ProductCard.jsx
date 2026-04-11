@@ -8,6 +8,7 @@ const ProductCard = ({item}) => {
       <div className="bg-gradient-to-r from-yellow-50  to-yellow-200/80 flex justify-center items-center h-44">
         <img 
           src={item.imgUrl} 
+          loading="lazy"
           alt="Scissor Lifts" 
           className="h-32 object-contain"
         />
