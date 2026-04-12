@@ -17,7 +17,6 @@ const Footer = () => {
             <FaFacebookF />
             <FaInstagram />
             <FaLinkedinIn />
-            {/* <FaYoutube /> */}
           </div>
         </div>
 

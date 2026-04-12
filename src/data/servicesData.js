@@ -1,13 +1,3 @@
-// import imgUrl from "../assets/lifting.jpg"
-// import imgUrl2 from "../assets/tireservices.jpg"
-// import imgUrl3 from '../assets/tools.jpg'
-// import imgUrl4 from '../assets/paints.png'
-// import imgUrl5 from '../assets/wash.jpg'
-// import imgUrl6 from '../assets/equipment.jpg'
-// import imgUrl7 from '../assets/airsystem.jpg'
-// import imgUrl8 from '../assets/testing.png'
-// import imgUrl10 from '../assets/storage.jpg'
-// import imgUrl11 from '../assets/maintain.png'
 
 
 const serviceData = [
